@@ -12,8 +12,7 @@ Computer Engineering student at Folsom Lake College, working toward transfer to 
 
 **Environment**
 - Local LLM inference on RTX 5070 Ti (Ollama + Qwen3 14B)
-- VS Code with Cline for agentic workflows
-- Git, CMake, Ruff, Clang-Format
+- VS Code with Cline & Copilot for agentic workflows
 
 **Currently Learning**
 - Linear algebra and probability for ML applications
@@ -23,7 +22,16 @@ Computer Engineering student at Folsom Lake College, working toward transfer to 
 
 ## Projects
 
-*Building out this section — check back soon.*
+**projects**
+AQI Forecasting Machine Learning System (Backend: Private | Frontend: Public)
+
+Live Demo: https://folsom-aqi.streamlit.app/
+
+Architecture: Engineered an environmental forecasting pipeline to predict extreme wildfire regimes.
+
+Stack: Python, XGBoost, LightGBM, CatBoost, Streamlit, NASA FIRMS & EPA AQS APIs & Airnow sensor data.
+
+Details: Implemented a zero-leakage data pipeline with custom time-series imputation and Conformal Quantile Regression to generate 90% confidence bounds on worst-case atmospheric scenarios. (Note: Backend repository is currently private to secure API keys and proprietary data pipelines).
 
 ---
 
